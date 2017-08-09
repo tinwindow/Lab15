@@ -1,0 +1,26 @@
+<div ng-controller="inputController">
+
+  <h2>
+
+ <div class="inputform">
+      <label for="illness">Enter an illness</label>
+      <input type = "text" name="illness" ng-model="createMadLib.illness"/><br>
+      <label for="nounone">Enter a Noun</label>
+      <input type = "text" name="nounone" ng-model="createMadLib.nounone"/><br>
+      <label for="verbone">Enter a Verb</label>
+      <input type = "text" name="verbone" ng-model="createMadLib.verbone"/><br>
+      <label for="lengthoftime">Enter a Length Of Time</label>
+      <input type = "text" name="lengthoftime" ng-model="createMadLib.lengthoftime"/><br>
+      <label for="catastrophicevent">Enter A Catastrophic Event</label>
+      <input type = "text" name="catastrophicevent" ng-model="createMadLib.catastrophicevent"/><br>
+      <label for="nountwo">Enter Another Noun</label>
+      <input type = "text" name="nountwo" ng model="createMadLib.nountwo"/><br>
+      <label for="verbtwo">Enter Another Verb</label>
+      <input type = "text" name="verbtwo" ng model="createMadLib.verbtwo"/><br>
+</div>
+<br>
+
+      <button type = "submit" name="button" ng-click="addWords(createMadLib)">See The Future!</button>
+
+
+</div>
